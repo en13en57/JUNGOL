@@ -2,10 +2,17 @@ import java.util.Arrays;
 
 /*
  * 3행 3열의 배열을 만들고
- * 1 2 3
- * 6 5 4
- * 7 8 9
- * 로 초기화한 후에 출력하시오 
+ * 
+ * 1   2   3   4   5 
+  10   9   8   7   6 
+  11  12  13  14  15 
+  20  19  18  17  16 
+  21  22  23  24  25 
+ *
+ * 
+ * 
+ * 
+ * * 로 초기화한 후에 출력하시오 
  */
 
 public class ArrayEx03 {
@@ -15,9 +22,9 @@ public class ArrayEx03 {
 
 		for (int i = 0; i < ar.length; i++)
 			for (int j = 0; j < ar[i].length; j++)
-				// ar[i][j] = i * row + j + 1;
-				// 짝수행은 늘어나고 홀수행은 줄어든다.
+				//  원래는 ar[i][j] = i * row + j + 1;
 				
+				// 짝수행은 늘어나고 홀수행은 줄어든다.
 				ar[i][j] = i%2==0 ? i*row + j + 1 : (i+1)*row-j; // 첫째행을 홀수 짝수로 나누어 true false로 +1 -1 하여줌
 			
 		// 짝수 행의 경우
@@ -37,7 +44,7 @@ public class ArrayEx03 {
 		for (int i = 0; i < ar.length; i++)
 			for (int j = 0; j < ar[i].length; j++)
 				// 짝수열은 늘어나고 홀수열은 줄어든다.
-				ar[j][i] = i%2==0 ? i*row + j + 1 : (i+1)*row-j;
+				ar[j][i] = i%2==0 ? i*col + j + 1 : (i+1)*col-j;
 				
 		arrayPrint(ar);
 	}

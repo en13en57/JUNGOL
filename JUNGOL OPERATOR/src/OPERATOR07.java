@@ -9,14 +9,15 @@ public class OPERATOR07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a, b;
+		System.out.println("정수 2개를 입력하시오");
 		a = sc.nextInt();
 		b = sc.nextInt();
 
-		System.out.println(a + " > " + b + " --- " + (a>b));
-		System.out.println(a + " < " + b + " --- " + (a<b));
-		System.out.println(a + " >= " + b + " --- " + (a>=b));
-		System.out.println(a + " <= " + b + " --- " + (a<=b));
-
+		boolean c = (a != 0);
+		boolean d = (b != 0); 
+		
+		System.out.printf(c + "  " + d);
+		
 		sc.close();
 
 	}
