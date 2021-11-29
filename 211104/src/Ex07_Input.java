@@ -18,6 +18,7 @@ public class Ex07_Input {
 		sc.close(); // 사용이 끝나면 닫아준다.
 		
 		char a = 'A';
+		System.out.println(++a);
 		System.out.println(a + 1);
 		// 'A' + 1 = 65 + 1 = 66 : 'A'의 ASCII코드값 65번으로 변경되어 정수 연산을 한다.
 		System.out.println((char)(a + 1)); // 다시 문자형으로 변경하면 66번 코드 'B'가 나온다.

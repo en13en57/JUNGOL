@@ -21,7 +21,7 @@ public class Ex06_Operator {
 		// XOR{두개값이 다르면 참} : 0100 => 4
 		System.out.println("bit XOR : " + (i ^ j)); // 0100
 		// NOT 0은 1로 1은 0으로 만든다. 즉 1의 보수이다.
-		System.out.println("bit NOT : " + (~i)); // 
+		System.out.println("bit NOT : " + (~i)); // 1110
 		
 		int k = j - i;
 		System.out.println(j + " - " + i + " = " + k);
