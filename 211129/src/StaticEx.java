@@ -1,18 +1,4 @@
 
-class StaticClass{
-	int iv = 100; // 인스턴스 변수 : 객체가 생성되어야 사용가능. "참조변수.변수명"으로 접근
-	static int sv = 200; // 정적변수(클래스 변수) : 클래스가 로드되면 사용가능. "클래스명.변수명"으로 접근
-	
-	void instanceMethod() {
-		System.out.println("iv = " + iv);
-		System.out.println("sv = " + sv);
-	}
-	static void staticMethod() {
-		// System.out.println("iv = " + iv); // Error : static 메서드에서는 static만 사용가능하다.
-		System.out.println("sv = " + sv);
-	}
-}
-
 public class StaticEx {
 	public static void main(String[] args) {
 		// 정적(static) 멤버의 접근
@@ -37,5 +23,19 @@ public class StaticEx {
 		s1.instanceMethod();
 		s2.instanceMethod(); // s1이나 s2모두 sv가 30000으로 변경되었다.  정적변수는 모든 객체가 공유한다.
 		
+	}
+}
+
+class StaticClass{
+	int iv = 100; // 인스턴스 변수 : 객체가 생성되어야 사용가능. "참조변수.변수명"으로 접근
+	static int sv = 200; // 정적변수(클래스 변수) : 클래스가 로드되면 사용가능. "클래스명.변수명"으로 접근
+	
+	void instanceMethod() {
+		System.out.println("iv = " + iv);
+		System.out.println("sv = " + sv);
+	}
+	static void staticMethod() {
+		// System.out.println("iv = " + iv); // Error : static 메서드에서는 static만 사용가능하다.
+		System.out.println("sv = " + sv);
 	}
 }
