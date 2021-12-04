@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+
 /*
 문제 1] 1부터 20 사이의 어떤 수로도 나누어 떨어지는 가장 작은 수
 문제 2] 3개의 숫자를 입력으로 받고 3개의 숫자 중에 중간값을 가지는 숫자를 출력하세요.
@@ -74,3 +75,5 @@ public class Exam01 {
 		return result;
 	}
 }
+
+
