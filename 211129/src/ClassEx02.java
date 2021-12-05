@@ -51,7 +51,7 @@ public class ClassEx02 {
 		today.date = 29;
 		
 		System.out.println(today);
-		
+		System.out.println();
 		int i = 100; // 선언과 동시에 초기값을 지정 가능하다.
 		
 		MyDate date1 = new MyDate(2022, 1, 1);  // 이렇게 초기화를 한다면 얼마나 편리할까? 

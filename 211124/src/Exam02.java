@@ -24,10 +24,11 @@ public class Exam02 {
 		String result = "";
 		for (String name : names) {
 			// 문자열.contains(문자열2) : 문자열에 문자열 2가 포함되어있는지를 알려준다. true/false
-			if (result.contains(name))
-				result += name + " "; // 포함되어 있지 않으면 연결해준다.
+				if(!result.contains(name)) result += name + " "; // 포함되어 있지 않으면 연결해준다.
 		}
 		System.out.println(result);
+		System.out.println();
+		
 		// 문자열을 다시 배열로 만든다.
 		// 문자열.trim() : 문자열이 앞/뒤의 공백을 제거해준다.
 		String ar[] = result.trim().split(" ");
