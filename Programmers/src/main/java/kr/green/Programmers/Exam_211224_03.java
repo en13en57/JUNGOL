@@ -1,4 +1,4 @@
-package kr.green.Test.Programmers;
+package kr.green.Programmers;
 
 import static org.junit.Assert.assertEquals;
 
@@ -40,7 +40,7 @@ nums		result
 [2,4,7]을 이용해서 13을 만들 수 있습니다.
 [4,6,7]을 이용해서 17을 만들 수 있습니다.
 */
-public class Exam03 {
+public class Exam_211224_03 {
 	public static void main(String[] args) {
 		// 경우의 수를 구해보자!!
 		// int[] nums = { 1, 2, 3, 4 };
@@ -78,7 +78,7 @@ public class Exam03 {
 
 	@Test
 	public void test() {
-		assertEquals(new Exam03().solution(new int[] { 1, 2, 3, 4 }), 1);
-		assertEquals(new Exam03().solution(new int[] { 1, 2, 7, 6, 4 }), 4);
+		assertEquals(new Exam_211224_03().solution(new int[] { 1, 2, 3, 4 }), 1);
+		assertEquals(new Exam_211224_03().solution(new int[] { 1, 2, 7, 6, 4 }), 4);
 	}
 }

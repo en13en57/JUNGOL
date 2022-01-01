@@ -1,4 +1,4 @@
-package kr.green.Test.Programmers;
+package kr.green.Programmers;
 
 import static org.junit.Assert.assertEquals;
 
@@ -24,7 +24,7 @@ a			b				result
 입출력 예 #1 : a와 b의 내적은 1*(-3) + 2*(-1) + 3*0 + 4*2 = 3 입니다.
 입출력 예 #2 : a와 b의 내적은 (-1)*1 + 0*0 + 1*(-1) = -2 입니다.
  */
-public class Exam02 {
+public class Exam_211224_02 {
 	public int solution(int[] a, int[] b) {
         int answer = 0;
         for(int i=0;i<a.length;i++) {
@@ -34,7 +34,7 @@ public class Exam02 {
 	}
 	@Test
 	public void test() {
-		assertEquals(new Exam02().solution(new int[] {1,2,3,4},new int[] {-3,-1,0,2}),3);
-		assertEquals(new Exam02().solution(new int[] {-1,0,1},new int[] {1,0,-1}),-2);
+		assertEquals(new Exam_211224_02().solution(new int[] {1,2,3,4},new int[] {-3,-1,0,2}),3);
+		assertEquals(new Exam_211224_02().solution(new int[] {-1,0,1},new int[] {1,0,-1}),-2);
 	}
 }

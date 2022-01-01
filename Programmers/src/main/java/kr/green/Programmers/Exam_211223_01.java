@@ -1,4 +1,4 @@
-package kr.green.Test.Programmers;
+package kr.green.Programmers;
 
 import static org.junit.Assert.assertEquals;
 
@@ -29,7 +29,7 @@ numbers				result
 입출력 예 #1 : 5, 9가 numbers에 없으므로, 5 + 9 = 14를 return 해야 합니다.
 입출력 예 #2 : 1, 2, 3이 numbers에 없으므로, 1 + 2 + 3 = 6을 return 해야 합니다.
  */
-public class Exam01 {
+public class Exam_211223_01 {
 	public int solution(int[] numbers) {
         List<Integer> list1 = IntStream.range(0, 10).boxed().collect(Collectors.toList()); // 0~9까지를 리스트로
         List<Integer> list2 = Arrays.stream(numbers).boxed().collect(Collectors.toList()); // 배열을 리스트로
@@ -52,12 +52,12 @@ public class Exam01 {
 	}
 	@Test
 	public void test() {
-		assertEquals(new Exam01().solution(new int[] {1,2,3,4,6,7,8,0}), 14);
-		assertEquals(new Exam01().solution(new int[] {5,8,4,0,6,7,9}), 6);
+		assertEquals(new Exam_211223_01().solution(new int[] {1,2,3,4,6,7,8,0}), 14);
+		assertEquals(new Exam_211223_01().solution(new int[] {5,8,4,0,6,7,9}), 6);
 	}
 	@Test
 	public void test2() {
-		assertEquals(new Exam01().solution2(new int[] {1,2,3,4,6,7,8,0}), 14);
-		assertEquals(new Exam01().solution2(new int[] {5,8,4,0,6,7,9}), 6);
+		assertEquals(new Exam_211223_01().solution2(new int[] {1,2,3,4,6,7,8,0}), 14);
+		assertEquals(new Exam_211223_01().solution2(new int[] {5,8,4,0,6,7,9}), 6);
 	}
 }

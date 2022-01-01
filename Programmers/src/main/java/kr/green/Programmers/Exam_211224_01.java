@@ -1,4 +1,4 @@
-package kr.green.Test.Programmers;
+package kr.green.Programmers;
 
 import static org.junit.Assert.assertEquals;
 
@@ -31,7 +31,7 @@ signs가 [true,false,true] 이므로, 실제 수들의 값은 각각 4, -7, 12�
 signs가 [false,false,true] 이므로, 실제 수들의 값은 각각 -1, -2, 3입니다.
 따라서 세 수의 합인 0을 return 해야 합니다.
 */
-public class Exam01 {
+public class Exam_211224_01 {
     public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
         for(int i=0;i<absolutes.length;i++) {
@@ -41,8 +41,8 @@ public class Exam01 {
 	}
 	@Test
 	public void test() {
-		assertEquals(new Exam01().solution(new int[] {4,7,12}, new boolean[] {true,false,true}), 9);
-		assertEquals(new Exam01().solution(new int[] {1,2,3}, new boolean[] {false,false,true}), 0);
+		assertEquals(new Exam_211224_01().solution(new int[] {4,7,12}, new boolean[] {true,false,true}), 9);
+		assertEquals(new Exam_211224_01().solution(new int[] {1,2,3}, new boolean[] {false,false,true}), 0);
 	}
 
 }

@@ -1,4 +1,4 @@
-package kr.green.Test.Programmers;
+package kr.green.Programmers;
 
 import static org.junit.Assert.assertEquals;
 
@@ -55,7 +55,7 @@ board															moves				result
 
 crane_game_104.jpg
  */
-public class Exam02 {
+public class Exam_211223_02 {
 	public int solution(int[][] board, int[] moves) {
 		int answer = 0;
 		Stack<Integer> s = new Stack<Integer>();
@@ -90,7 +90,7 @@ public class Exam02 {
 	}
 	@Test
 	public void test() {
-		assertEquals(new Exam02().solution(new int[][] { 
+		assertEquals(new Exam_211223_02().solution(new int[][] { 
 			{ 0, 0, 0, 0, 0 }, 
 			{ 0, 0, 1, 0, 3 }, 
 			{ 0, 2, 5, 0, 1 },

@@ -1,4 +1,4 @@
-package kr.green.Test.Programmers;
+package kr.green.Programmers;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ OXOXOXOXOXOXOX			 7
 OOOOOOOOOO				55
 OOOOXOOOOXOOOOX			30
 */
-public class Exam04 {
+public class Exam_211224_04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
