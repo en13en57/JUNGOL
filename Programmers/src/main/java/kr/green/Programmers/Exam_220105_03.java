@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.List;
 
 import org.junit.Test;
-
 /*
 나누어 떨어지는 숫자 배열
 array의 각 element 중 divisor로 

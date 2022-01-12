@@ -3,6 +3,7 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
 /*
 최소직사각형
 명함 지갑을 만드는 회사에서 지갑의 크기를 정하려고 합니다. 

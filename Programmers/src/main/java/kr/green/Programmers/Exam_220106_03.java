@@ -4,7 +4,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-
 /*
 문자열 내 p와 y의 개수
 대문자와 소문자가 섞여있는 문자열 s가 주어집니다. 

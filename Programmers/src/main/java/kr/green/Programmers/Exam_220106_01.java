@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 /*
 두 정수 사이의 합
 두 정수 a, b가 주어졌을 때 a와 b 사이에 속한 모든 정수의 합을 리턴하는 함수, 

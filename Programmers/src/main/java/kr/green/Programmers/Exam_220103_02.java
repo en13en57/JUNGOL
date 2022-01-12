@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+
 /*
 나머지가 1이 되는 수 찾기
 자연수 n이 매개변수로 주어집니다. 

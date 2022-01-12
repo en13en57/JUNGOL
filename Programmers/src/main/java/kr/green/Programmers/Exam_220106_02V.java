@@ -6,7 +6,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 import org.junit.Test;
-
 /*
 문자열 내 마음대로 정렬하기
 문자열로 구성된 리스트 strings와, 정수 n이 주어졌을 때, 

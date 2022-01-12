@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 /*
 서울에서 김서방 찾기
 문제 설명

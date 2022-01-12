@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
-
 /*
 제일 작은 수 제거하기
 문제 설명

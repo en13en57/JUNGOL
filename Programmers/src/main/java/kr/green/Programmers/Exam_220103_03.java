@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 /*
 부족한 금액 계산하기
 새로 생긴 놀이기구는 인기가 매우 많아 줄이 끊이질 않습니다. 

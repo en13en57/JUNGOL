@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 /*
 정수 제곱근 판별
 문제 설명

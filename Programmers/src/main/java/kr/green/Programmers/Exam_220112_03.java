@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 /*
 콜라츠 추측
 문제 설명

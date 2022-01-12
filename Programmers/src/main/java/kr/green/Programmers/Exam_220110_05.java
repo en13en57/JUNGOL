@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 /*
 이상한 문자 만들기
 문자열 s는 한 개 이상의 단어로 구성되어 있습니다. 

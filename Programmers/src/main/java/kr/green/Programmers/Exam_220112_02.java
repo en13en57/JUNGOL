@@ -3,7 +3,6 @@ package kr.green.Programmers;
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
-
 /*
 최대공약수와 최소공배수
 문제 설명
