@@ -53,6 +53,7 @@ public class Exam_220105_02 {
         for(int i=0;i<answer.length;i++) answer[i] = list.get(i);
 		return answer;
 	}
+	/*
 	public int[] solution2(int []arr) {
 		int[] answer = null;
 		// 스텍으로 풀어보자
@@ -71,17 +72,20 @@ public class Exam_220105_02 {
 		for(int i=answer.length-1;i>=0;i--) answer[i] = stack.pop();
 		return answer;
 	}
-
+*/
 	@Test
 	public void test() {
 		assertArrayEquals(new Exam_220105_02().solution(new int[] {1,1,3,3,0,1,1}), new int[] {1,3,0,1});
 		assertArrayEquals(new Exam_220105_02().solution(new int[] {4,4,4,3,3}), new int[] {4,3});
 		
 	}
+	
+	/*
 	@Test
 	public void test2() {
 		assertArrayEquals(new Exam_220105_02().solution2(new int[] {1,1,3,3,0,1,1}), new int[] {1,3,0,1});
 		assertArrayEquals(new Exam_220105_02().solution2(new int[] {4,4,4,3,3}), new int[] {4,3});
 		
 	}
+	*/
 }
